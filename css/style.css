@@ -3,6 +3,10 @@ body {
 	font-family: Noto Sans CJK TC, Airal, sans-serif;
 	color: #1E1E1E;
 }
+@font-face{
+  font-family: Impact;
+  src: url('../font/impact.ttf');
+}
 .container {
 	width: 100%;
 	max-width: 1200px;
@@ -479,7 +483,7 @@ a.btn-gray {
 	transform: translate(0,0);
 }
 .modal-player .modal-content {
-	height: 98vh;
+	height: 99vh;
 	color: #FFF;
 	background-color: rgba(0, 0, 0, .9);
 	border: 0;
