@@ -379,7 +379,7 @@ a.btn-gray {
 	color: #FFF;
 	background-color: rgba(0, 0, 0, .9);
 	height: 60px;
-	padding: 0 15px;
+	padding: 0 10px;
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
@@ -457,6 +457,9 @@ a.btn-gray {
 	position: absolute;
 	right: 0;
 	top: -4px;
+}
+.player .icon-expand {
+	padding: 0 8px;
 }
 
 
