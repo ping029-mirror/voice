@@ -1115,6 +1115,7 @@ a.btn-gray {
 }
 .book-item {
     width: 140px;
+    color: #1E1E1E;
     background-color: #FFF;
 }
 .book-item img {
@@ -1748,7 +1749,8 @@ a.btn-gray {
 	background-image: url("../img/img-bg-05-m.jpg");
 	background-size: cover;
 	background-position: center;
-	padding: 35px 0 125px;
+	padding: 35px 0;
+	margin-bottom: 55px;
 }
 .anchor-img {
 	position: relative;
@@ -1886,11 +1888,9 @@ a.btn-gray {
 }
 .anchor-moive {
     margin-bottom: 50px;
-    margin-top: -75px;
 }
 .anchor-voice {
 	background-color: #F0F0F0;
-	margin-bottom: 50px;
 }
 .anchor-voice-box, .list-voice-box {
     padding: 0 20px 30px 20px;
