@@ -483,7 +483,8 @@ a.btn-gray {
 	transform: translate(0,0);
 }
 .modal-player .modal-content {
-	height: 99vh;
+	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
 	color: #FFF;
 	background-color: rgba(0, 0, 0, .9);
 	border: 0;
