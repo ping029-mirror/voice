@@ -19,6 +19,9 @@ img {
 li {
 	list-style: none;
 }
+a, a:hover, a:active, a:focus {
+	color: #1E1E1E;
+}
 a, a:hover, a:active, a:focus,
 button, button:hover, button:active, button:focus {
 	outline:0 none !important;
@@ -48,19 +51,19 @@ a.btn-more {
 	margin: auto;
 }
 a.btn-more i {
-	font-size: 10px;
+	font-size: 12px;
 	margin-left: 5px;
 }
 a.btn-more-oblong {
 	display: block;
 	border-radius: 50px;
-	width: 60px;
 	color: #1E1E1E;
 	letter-spacing: 1px;
 	font-size: 9px;
 	line-height: 20px;
 	text-align: center;
 	border: 1px solid #1E1E1E;
+	padding: 3px 8px;
 }
 a.btn-more:hover, a.btn-more:active, a.btn-more:focus, a.btn-more-oblong:hover, a.btn-more-oblong:active, a.btn-more-oblong:focus {
 	text-decoration: none;
@@ -406,9 +409,12 @@ a.btn-gray {
 	border-radius: 50%;
 	background-color: #FFF;
 }
+.player-icon button.icon-play i {
+    padding-left: 2px;
+}
 .icon-play p {
 	font-size: 16px;
-	line-height: 40px;
+	line-height: 39px;
 	color: #FF6D2D;
 	text-align: center;
 }
@@ -422,12 +428,12 @@ a.btn-gray {
 	align-items: flex-end;
 }
 .bar-txt p {
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 10px;
 	margin-bottom: 0;
 }
 .bar-txt p.time {
-	font-size: 8px;
+	font-size: 12px;
 }
 .bar-icon {
 	width: 100%;
@@ -569,7 +575,7 @@ a.btn-gray {
 	background-color: rgba(255, 109, 45, 1);
 }
 .player-o-img .icon i {
-	font-size: 10px;
+	font-size: 12px;
 }
 .player-o-txt {
     margin-bottom: 35px;
@@ -626,8 +632,8 @@ a.btn-gray {
 }
 .player-o-btn .icon-play p i {
     font-size: 24px;
-    line-height: 62px;
-    padding-left: 2px;
+    line-height: 61px;
+    padding-left: 3px;
 }
 .player-o-btn .icon-repeat {
 	width: 18px;
@@ -734,7 +740,7 @@ a.btn-gray {
     padding: 15px 20px;
 }
 .kv-txt .tag {
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: 500;
 	color: #798FA7;
 	margin-bottom: 10px;
@@ -751,14 +757,14 @@ a.btn-gray {
 	margin: 0 0 10px;
 }
 .kv-txt p {
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: 300;
 	line-height: 16px;
 	color: #464646;
 	margin-bottom: 15px;
 }
 .kv-txt .txt-anchor {
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: 400;
 	color: #464646;
 }
@@ -884,7 +890,7 @@ a.btn-gray {
 	margin: 0 0 5px 0;
 }
 .project-title p {
-	font-size: 10px;
+	font-size: 12px;
 	color: #FFF;
 	margin: 0;
 }
@@ -907,7 +913,7 @@ a.btn-gray {
 	display: inline-block;
 	border-radius: 50px;
 	padding: 3px 10px;
-	font-size: 10px;
+	font-size: 12px;
 	background-color: rgba(255, 255, 255, .2);
 	margin: 0 3px 5px 0;
 }
@@ -1011,7 +1017,7 @@ a.btn-gray {
 	font-family: Arial;
 	font-weight: bold;
 	color: #FFF;
-	font-size: 10px;
+	font-size: 12px;
 	box-shadow: 2px 5px 8px rgba(0, 0, 0, .6);
 }
 .rank-img .num {
@@ -1044,7 +1050,7 @@ a.btn-gray {
 	margin: 6px 0  0;
 }
 .rank-title p {
-	font-size: 10px;
+	font-size: 12px;
 	color: #969696;
 	margin-bottom: 0;
 	margin-top: auto;
@@ -1059,11 +1065,11 @@ a.btn-gray {
     line-height: 10px;
 }
 .rank-price .icon-star i {
-    font-size: 10px;
+    font-size: 12px;
     color: #35568D;
 }
 .rank-price .star p {
-    font-size: 8px;
+    font-size: 12px;
     color: #B4B4B4;
     margin: 0;
 }
@@ -1077,13 +1083,13 @@ a.btn-gray {
     margin: 0;
 }
 .rank-price .price p:first-child {
-    font-size: 8px;
+    font-size: 12px;
 	font-weight: 400;
-    line-height: 8px;
+    line-height: 12px;
     color: #B4B4B4;
 }
 .rank-price .price p span {
-	font-size: 8px;
+	font-size: 12px;
 }
 .ranking-item:last-child .category-title, .ranking-item:last-child .rank-title .tag span {
 	background-color: #798FA7;
@@ -1137,7 +1143,7 @@ a.btn-gray {
 }
 .book-title .tag {
 	color: #35568D;
-	font-size: 10px;
+	font-size: 12px;
 }
 .book-title .tag span {
 	padding: 0 5px;
@@ -1152,7 +1158,7 @@ a.btn-gray {
 	font-weight: 500;
 }
 .book-title p {
-	font-size: 10px;
+	font-size: 12px;
 	color: #969696;
 	margin-bottom: 0;
 	margin-top: auto;
@@ -1166,11 +1172,11 @@ a.btn-gray {
     line-height: 10px;
 }
 .book-price .icon-star i {
-    font-size: 10px;
+    font-size: 12px;
     color: #35568D;
 }
 .book-price .star p {
-    font-size: 8px;
+    font-size: 12px;
     color: #B4B4B4;
     margin: 0;
 }
@@ -1184,12 +1190,12 @@ a.btn-gray {
     margin: 0;
 }
 .book-price .price p:first-child {
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 12px;
+    line-height: 12px;
     color: #B4B4B4;
 }
 .book-price .price p span {
-	font-size: 8px;
+	font-size: 12px;
 }
 
 
@@ -1366,7 +1372,7 @@ a.btn-gray {
 	margin: 6px 0  0;
 }
 .pub-title p {
-	font-size: 10px;
+	font-size: 12px;
 	color: #969696;
 	margin-bottom: 0;
 	margin-top: auto;
@@ -1422,11 +1428,11 @@ a.btn-gray {
     line-height: 10px;
 }
 .voice-txt .icon-star i {
-    font-size: 10px;
+    font-size: 12px;
     color: #B49D73;
 }
 .voice-txt .star p {
-    font-size: 8px;
+    font-size: 12px;
     color: #B4B4B4;
     margin: 0;
 }
@@ -1590,7 +1596,7 @@ a.btn-gray {
 .class {
 	display: flex;
 	justify-content: flex-end;
-	font-size: 10px;
+	font-size: 12px;
 	border-bottom: 1px solid #1E1E1E;
 	padding-bottom: 3px;
 	transform: translateY(-10px);
@@ -1666,7 +1672,7 @@ a.btn-gray {
 	margin: 0 0 10px;
 }
 .content-top p {
-	font-size: 10px;
+	font-size: 12px;
 	margin-bottom: 20px;
 }
 .content-top .tag {
@@ -1718,7 +1724,7 @@ a.btn-gray {
 	margin-top: 0;
 }
 .more-box p {
-	font-size: 10px;
+	font-size: 12px;
 	color: #969696;
 	margin-bottom: 0
 }
@@ -1802,7 +1808,7 @@ a.btn-gray {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 10px;
+	font-size: 12px;
 	padding: 10px 0;
 	margin-bottom: 0;
 }
@@ -1836,7 +1842,7 @@ a.btn-gray {
     margin-bottom: 5px;
 }
 .anchor-txt .star p {
-    font-size: 8px;
+    font-size: 12px;
     color: #B4B4B4;
     text-align: right;
     margin: 0;
@@ -1854,7 +1860,7 @@ a.btn-gray {
 }
 .anchor-tag {
 	color: #FFF;
-	font-size: 10px;
+	font-size: 12px;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 20px;
@@ -1912,7 +1918,7 @@ a.btn-gray {
     align-items: center;
 }
 .length p {
-    font-size: 10px;
+    font-size: 12px;
     color: #B7B3AD;
     padding: 0 25px;
     line-height: 30px;
@@ -1926,9 +1932,10 @@ a.btn-gray {
     border-radius: 50%;
 }
 .length .icon-play i {
-    font-size: 10px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 29px;
     color: #FD6D2D;
+    padding-left: 2px;
 }
 .anchor-voice-box div + div, .list-voice-box div + div {
     border-top: 1px solid #ddd;
@@ -1985,7 +1992,7 @@ a.btn-gray {
 	flex-direction: column;
 }
 .work-title .tag {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 10px;
 }
 .work-title .tag span {
@@ -2006,7 +2013,7 @@ a.btn-gray {
 	color: #798FA7;
 } 
 .list-txt {
-    font-size: 10px;
+    font-size: 12px;
     color: #969696;
 }
 .list-txt .intro {
@@ -2061,7 +2068,7 @@ a.btn-gray {
     margin-bottom: 5px;
 }
 .message-title p {
-    font-size: 10px;
+    font-size: 12px;
     color: #B4B4B4;
 	margin-bottom: 0
 }
@@ -2140,7 +2147,7 @@ button.btn-more {
 	margin-bottom: 15px;
 }
 button.btn-more i {
-	font-size: 10px;
+	font-size: 12px;
 }
 .donate-box .title-txt {
 	color: #FFB01C;
@@ -2239,7 +2246,7 @@ button.btn-more i {
 	background-color: rgba(255, 109, 45, .3);
 }
 .album-icon a i {
-	font-size: 10px;
+	font-size: 12px;
 }
 .album-content {
 	position: relative;
@@ -2279,7 +2286,7 @@ button.btn-more i {
     margin-bottom: 5px;
 }
 .album-txt .star p {
-    font-size: 8px;
+    font-size: 12px;
     color: #B4B4B4;
     text-align: right;
     margin: 0;
@@ -2297,13 +2304,13 @@ button.btn-more i {
     margin-bottom: 20px;
 }
 .des {
-	font-size: 10px;
+	font-size: 12px;
 	color: #464646;
     font-weight: 300;
     margin-bottom: 15px;
 }
 .album-tag {
-    font-size: 10px;
+    font-size: 12px;
     color: #969696;
     display: flex;
     flex-wrap: wrap;
@@ -2344,7 +2351,7 @@ button.btn-more i {
 	color: #EAAC9D;
 }
 .anchor-box .voice-txt > p {
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: 400;
 	margin-bottom: 0;
 }
@@ -2495,7 +2502,7 @@ button.btn-more i {
     line-height: 32px;
 }
 .fraction p:last-child {
-    font-size: 10px;
+    font-size: 12px;
 }
 .fraction p:first-child span {
     font-size: 12px;
@@ -2519,7 +2526,7 @@ button.btn-more i {
     line-height: 0;
 }
 .score-star-item .icon-star i {
-    font-size: 10px;
+    font-size: 12px;
     color: #35568D;
 }
 .score-star-item .bar-icon {
@@ -2536,7 +2543,7 @@ button.btn-more i {
     background-color: #35568D;
 }
 .score-star-item > span {
-	font-size: 10px;
+	font-size: 12px;
 	margin-left: 5px;
 }
 .fraction {
@@ -2561,7 +2568,7 @@ button.btn-more i {
     margin-bottom: auto;
 }
 .review-box .star .icon-star i {
-    font-size: 10px;
+    font-size: 12px;
     color: #35568D;
 }
 .review-box .message-item-list {
@@ -2596,7 +2603,7 @@ button.btn-more i {
 	margin-top: 5px;
 }
 .album-img .price p {
-	font-size: 8px;
+	font-size: 12px;
 	color: #FFF;
 	margin-bottom: 0;
 }
@@ -2606,7 +2613,7 @@ button.btn-more i {
 	font-weight: 700;
 }
 .album-img .price p:last-child span {
-	font-size: 8px;
+	font-size: 12px;
 }
 .album-audio .album-txt .name .tag,
 .album-audio .album-txt .icon-star i {
@@ -2715,7 +2722,7 @@ button.btn-more i {
 	padding: 0 20px;
 }
 .included-voice p.other {
-	font-size: 10px;
+	font-size: 12px;
 	color: #969696;
 	padding: 10px 0;
 	border-bottom: 1px solid #D8D8D8;
