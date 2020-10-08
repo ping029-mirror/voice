@@ -59,7 +59,7 @@ a.btn-more-oblong {
 	border-radius: 50px;
 	color: #1E1E1E;
 	letter-spacing: 1px;
-	font-size: 9px;
+	font-size: 12px;
 	line-height: 20px;
 	text-align: center;
 	border: 1px solid #1E1E1E;
@@ -79,7 +79,7 @@ a.btn-more:hover, a.btn-more:active, a.btn-more:focus, a.btn-more-oblong:hover, 
 	flex-grow: 1;
 }
 .btn-group-bottom a.btn-more {
-	font-size: 12px;
+	font-size: 14px;
 	width: 100%;
 	border-radius: 0;
 	box-shadow: none;
@@ -164,7 +164,7 @@ a.btn-gray {
 }
 .main-logo a {
 	display: block;
-	width: 115px;
+	width: 105px;
 	margin-left: 15px;
 }
 .hb {
@@ -286,7 +286,7 @@ a.btn-gray {
     line-height: 30px;
 }
 .main-icon .login {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 500;
 	letter-spacing: 1px;
 }
@@ -356,7 +356,10 @@ a.btn-gray {
     padding-left: 15px;
 }
 .copyright {
-	font-size: 9px;
+	font-size: 14px;
+}
+.footer-bottom {
+	padding-bottom: 100px;
 }
 
 @media screen and (max-width:355px) {
@@ -428,12 +431,12 @@ a.btn-gray {
 	align-items: flex-end;
 }
 .bar-txt p {
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 10px;
 	margin-bottom: 0;
 }
 .bar-txt p.time {
-	font-size: 12px;
+	font-size: 14px;
 }
 .bar-icon {
 	width: 100%;
@@ -575,7 +578,7 @@ a.btn-gray {
 	background-color: rgba(255, 109, 45, 1);
 }
 .player-o-img .icon i {
-	font-size: 12px;
+	font-size: 14px;
 }
 .player-o-txt {
     margin-bottom: 35px;
@@ -588,7 +591,7 @@ a.btn-gray {
 	margin-bottom: 20px;
 }
 .player-o-txt p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #9B9B9B;
 }
 .bar-length {
@@ -603,7 +606,7 @@ a.btn-gray {
 	line-height: 24px;
 }
 .bar-length .time {
-	font-size: 12px;
+	font-size: 14px;
 	color: #FFF;
 }
 .player-o-bar .strip {
@@ -695,7 +698,7 @@ a.btn-gray {
     line-height: 22px;
     padding: 10px 40px;
     font-size: 14px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .kv .swiper-pagination-bullet {
 	width: 10px;
@@ -740,10 +743,10 @@ a.btn-gray {
     padding: 15px 20px;
 }
 .kv-txt .tag {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #798FA7;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 }
 .kv-txt .tag span {
 	padding: 3px 10px;
@@ -752,19 +755,19 @@ a.btn-gray {
 	margin-right: 5px;
 }
 .kv-txt h3 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 500;
 	margin: 0 0 10px;
 }
 .kv-txt p {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 300;
-	line-height: 16px;
+	line-height: 20px;
 	color: #464646;
 	margin-bottom: 15px;
 }
 .kv-txt .txt-anchor {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 400;
 	color: #464646;
 }
@@ -857,6 +860,7 @@ a.btn-gray {
 .project a.btn-more-oblong {
 	color: #FFF;
 	border-color: #FFF;
+	margin-right: 10px;
 }
 .project .title p::after {
 	background-color: #FFF;
@@ -885,12 +889,13 @@ a.btn-gray {
 }
 .project-title h3 {
 	font-size: 16px;
+	line-height: 24px;
 	color: #FFF;
 	font-weight: 600;
 	margin: 0 0 5px 0;
 }
 .project-title p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #FFF;
 	margin: 0;
 }
@@ -905,8 +910,8 @@ a.btn-gray {
 	color: #B4B4B4;
 }
 .project-txt p {
-	font-size: 12px;
-	line-height: 20px;
+	font-size: 14px;
+	line-height: 24px;
 	margin-bottom: 10px;
 }
 .tag-item {
@@ -978,8 +983,8 @@ a.btn-gray {
 }
 .category-title span {
 	font-family: Helvetica;
-	font-size: 9px;
-	font-weight: 800;
+	font-size: 12px;
+	font-weight: 400;
 	margin-left: 5px;
 }
 .category-title a {
@@ -1036,7 +1041,7 @@ a.btn-gray {
 }
 .rank-title .tag {
 	color: #35568D;
-	font-size: 9px;
+	font-size: 14px;
 }
 .rank-title .tag span {
 	padding: 0 5px;
@@ -1046,11 +1051,12 @@ a.btn-gray {
 }
 .rank-title h3 {
 	font-weight: 500;
-	font-size: 12px;
-	margin: 6px 0  0;
+	font-size: 16px;
+    line-height: 24px;
+	margin: 6px 0;
 }
 .rank-title p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #969696;
 	margin-bottom: 0;
 	margin-top: auto;
@@ -1078,6 +1084,7 @@ a.btn-gray {
 }
 .rank-price .price p {
     color: #FF6D2D;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
     margin: 0;
@@ -1089,7 +1096,7 @@ a.btn-gray {
     color: #B4B4B4;
 }
 .rank-price .price p span {
-	font-size: 12px;
+	font-size: 14px;
 }
 .ranking-item:last-child .category-title, .ranking-item:last-child .rank-title .tag span {
 	background-color: #798FA7;
@@ -1120,16 +1127,20 @@ a.btn-gray {
     width: auto;
 }
 .book-item {
-    width: 140px;
+    width: 157px;
     color: #1E1E1E;
     background-color: #FFF;
+    border-radius: 5px;
 }
 .book-item img {
 	height: 140px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 	object-fit: cover;
 }
 .book-txt {
-    height: 155px;
+    height: 165px;
+    line-height: 24px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -1139,11 +1150,11 @@ a.btn-gray {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .book-title .tag {
 	color: #35568D;
-	font-size: 12px;
+	font-size: 14px;
 }
 .book-title .tag span {
 	padding: 0 5px;
@@ -1152,13 +1163,13 @@ a.btn-gray {
 	margin-right: 5px;
 }
 .book-title h3 {
-	font-size: 14px;
-	margin: 6px 0  0;
+	font-size: 16px;
+	margin: 6px 0  8px;
 	line-height: 20px;
 	font-weight: 500;
 }
 .book-title p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #969696;
 	margin-bottom: 0;
 	margin-top: auto;
@@ -1185,6 +1196,7 @@ a.btn-gray {
 }
 .book-price .price p {
     color: #FF6D2D;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
     margin: 0;
@@ -1192,6 +1204,7 @@ a.btn-gray {
 .book-price .price p:first-child {
     font-size: 12px;
     line-height: 12px;
+    font-weight: 400;
     color: #B4B4B4;
 }
 .book-price .price p span {
@@ -1331,7 +1344,7 @@ a.btn-gray {
 	margin-top: 0;
 }
 .pub-txt p {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 300;
 	line-height: 20px;
 	margin-bottom: 0;
@@ -1358,7 +1371,7 @@ a.btn-gray {
 }
 .pub-title .tag {
 	color: #798FA7;
-	font-size: 9px;
+	font-size: 14px;
 }
 .pub-title .tag span {
 	padding: 0 5px;
@@ -1367,12 +1380,13 @@ a.btn-gray {
 	margin-right: 5px;
 }
 .pub-title h3 {
+	line-height: 20px;
 	font-weight: 400;
-	font-size: 12px;
-	margin: 6px 0  0;
+	font-size: 14px;
+	margin: 6px 0;
 }
 .pub-title p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #969696;
 	margin-bottom: 0;
 	margin-top: auto;
@@ -1408,21 +1422,27 @@ a.btn-gray {
 	width: 100px;
 	text-align: center;
 }
+.voice-img {
+	margin-bottom: 10px;
+}
 .voice-txt .voice-category {
 	display: inline-block;
     padding: 2px 6px;
     background-color: #B49D73;
     color: #FFF;
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 5px;
 }
+.voice-box-host .voice-txt .voice-category {
+	background-color: #EAAC9D;
+}
 .voice-txt h4 {
-	font-size: 14px;
-	margin: 0 0 5px;
+	font-size: 16px;
+	margin: 0 0 10px;
 }
 .voice-txt .star {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 .voice-txt .icon-star {
     line-height: 10px;
@@ -1430,6 +1450,9 @@ a.btn-gray {
 .voice-txt .icon-star i {
     font-size: 12px;
     color: #B49D73;
+}
+.voice-box-host .voice-txt .icon-star i {
+	color: #EAAC9D;
 }
 .voice-txt .star p {
     font-size: 12px;
@@ -1441,13 +1464,16 @@ a.btn-gray {
 	border-radius: 50px;
 	color: #FF6D2D;;
 	border-color: #FF6D2D;;
-	font-size: 12px;
+	font-size: 14px;
 }
 .btn-track:hover, .btn-track:active, .btn-track:focus,
 .btn-track:active:hover {
     color: #FFF;
     background-color: #FF6D2D;;
     border-color: #FF6D2D;;
+}
+.voice-txt .btn-track {
+	padding: 4px 10px;
 }
 
 
@@ -1559,12 +1585,12 @@ a.btn-gray {
 	margin: 0 0 5px;
 }
 .plan-txt-list p {
-	font-size: 12px;
+	font-size: 14px;
 	flex-wrap: 300;
 	margin-bottom: 0;
 }
 .plan-item a.btn-more {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 2px;
 	font-weight: 400;
 	position: absolute;
@@ -1596,7 +1622,7 @@ a.btn-gray {
 .class {
 	display: flex;
 	justify-content: flex-end;
-	font-size: 12px;
+	font-size: 14px;
 	border-bottom: 1px solid #1E1E1E;
 	padding-bottom: 3px;
 	transform: translateY(-10px);
@@ -1611,14 +1637,15 @@ a.btn-gray {
 .class p:first-child::after {
 	content: "|";
 	display: inline-block;
-	margin: 0 5px;
-	vertical-align: 
+	color: #1E1E1E;
+	margin: 0 5px; 
 }
 .class p.active {
 	color: #FF6D2D;
 }
 .project-news .project-item {
     width: 100%;
+    border-radius: 5px;
     margin-bottom: 45px;
 }
 .news .project.project-news {
@@ -1626,6 +1653,8 @@ a.btn-gray {
 }
 .project-news .project-img img {
     height: 215px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 
@@ -1667,12 +1696,12 @@ a.btn-gray {
 	margin-bottom: 25px;
 }	
 .content-top h1 {
-	font-size: 20px;
-	font-weight: 800;
-	margin: 0 0 10px;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0 0 15px;
 }
 .content-top p {
-	font-size: 12px;
+	font-size: 14px;
 	margin-bottom: 20px;
 }
 .content-top .tag {
@@ -1720,11 +1749,12 @@ a.btn-gray {
 	padding: 0 10px;
 }
 .more-box h3 {
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 24px;
 	margin-top: 0;
 }
 .more-box p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #969696;
 	margin-bottom: 0
 }
@@ -1761,6 +1791,7 @@ a.btn-gray {
 .anchor-img {
 	position: relative;
 	padding: 0 10px;
+	margin-bottom: 15px;
 }
 .img-member {
 	width: 235px;
@@ -1808,7 +1839,7 @@ a.btn-gray {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 10px 0;
 	margin-bottom: 0;
 }
@@ -1823,18 +1854,23 @@ a.btn-gray {
 	color: #FFF;
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 15px;
 }
 .anchor-txt .name span {
-	font-size: 9px;
-	padding: 0 5px;
+	display: block;
+	font-size: 14px;
+	padding: 3px 5px;
 	background-color: #B49D73;
+	margin-bottom: 10px;
 }
 .anchor-txt .name h3 {
 	font-size: 20px;
-	margin: 5px 0 10px;
+	margin: 0;
 }
 .anchor-txt .icon-star {
     line-height: 10px;
+    text-align: right;
 }
 .anchor-txt .icon-star i {
     font-size: 12px;
@@ -1855,16 +1891,21 @@ a.btn-gray {
 .anchor-intro {
 	font-size: 14px;
 	color: #FFF;
+	line-height: 24px;
 	padding: 0 20px;
 	margin-bottom: 20px;
 }
 .anchor-tag {
 	color: #FFF;
-	font-size: 12px;
+	font-size: 14px;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 20px;
 	margin-bottom: 20px;
+	align-items: center;
+}
+.anchor-tag p {
+    margin-bottom: 0;
 }
 .anchor-tag p::after {
 	content: "|";
@@ -1872,7 +1913,7 @@ a.btn-gray {
 	margin: 0 5px;
 }
 .anchor-tag .tag-item {
-	margin: 0 5px 5px 0;
+	margin: 3px 5px 5px 0;
 }
 .anchor-btn {
 	display: flex;
@@ -1908,9 +1949,10 @@ a.btn-gray {
     padding: 10px 0;
 }
 .anchor-voice-item h3, .list-voice-item h3 {
-    font-size: 12px;
+    font-size: 14px;
     color: #615A50;
     font-weight: 400;
+    line-height: 22px;
     margin: 0;
 }
 .length {
@@ -1918,7 +1960,7 @@ a.btn-gray {
     align-items: center;
 }
 .length p {
-    font-size: 12px;
+    font-size: 14px;
     color: #B7B3AD;
     padding: 0 25px;
     line-height: 30px;
@@ -1992,18 +2034,18 @@ a.btn-gray {
 	flex-direction: column;
 }
 .work-title .tag {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .work-title .tag span {
-    font-size: 9px;
+    font-size: 14px;
     background-color: #798FA7;
     padding: 0 5px;
     color: #FFF;
     margin-right: 5px;
 }
 .work-title h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
 }
 .work-title .book-price {
@@ -2013,13 +2055,13 @@ a.btn-gray {
 	color: #798FA7;
 } 
 .list-txt {
-    font-size: 12px;
+    font-size: 14px;
     color: #969696;
 }
 .list-txt .intro {
-	font-size: 12px;
+	font-size: 14px;
 	color: #1E1E1E;
-	line-height: 22px;
+	line-height: 24px;
 	margin-bottom: 20px;
 	font-weight: 300;
 }
@@ -2036,7 +2078,7 @@ a.btn-gray {
 .list-btn .btn-more {
     width: 0;
     flex-grow: 1;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 400;
     margin: 0 2.5px;
@@ -2068,7 +2110,7 @@ a.btn-gray {
     margin-bottom: 5px;
 }
 .message-title p {
-    font-size: 12px;
+    font-size: 14px;
     color: #B4B4B4;
 	margin-bottom: 0
 }
@@ -2083,7 +2125,7 @@ a.btn-gray {
     display: flex;
 }
 .message .dropdown-menu {
-	font-size: 12px;
+	font-size: 14px;
 	min-width: auto;
 	left: -28px;
 	margin-top: 5px;
@@ -2140,7 +2182,7 @@ a.btn-gray {
 }
 button.btn-more {
 	display: block;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #FF6D2D;
 	margin: auto;
@@ -2264,7 +2306,7 @@ button.btn-more i {
 }
 .album-txt .name .tag {
     color: #35568D;
-    font-size: 9px;
+    font-size: 14px;
 }
 .album-txt .name span {
     color: #FFF;
@@ -2273,12 +2315,13 @@ button.btn-more i {
     margin-right: 5px;
 }
 .album-txt .name h3 {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 28px;
     margin: 10px 0;
 }
 .album-txt .icon-star {
     line-height: 10px;
+    text-align: right;
 }
 .album-txt .icon-star i {
     font-size: 12px;
@@ -2304,13 +2347,13 @@ button.btn-more i {
     margin-bottom: 20px;
 }
 .des {
-	font-size: 12px;
+	font-size: 14px;
 	color: #464646;
     font-weight: 300;
     margin-bottom: 15px;
 }
 .album-tag {
-    font-size: 12px;
+    font-size: 14px;
     color: #969696;
     display: flex;
     flex-wrap: wrap;
@@ -2351,7 +2394,7 @@ button.btn-more i {
 	color: #EAAC9D;
 }
 .anchor-box .voice-txt > p {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 400;
 	margin-bottom: 0;
 }
@@ -2444,9 +2487,10 @@ button.btn-more i {
     padding: 0 0 30px 0;
 }
 .list-box .list-voice-item h3 {
-    font-size: 12px;
+    font-size: 14px;
     color: #615A50;
     font-weight: 400;
+    line-height: 22px;
     margin: 0;
 }
 .list-box #intro p {
@@ -2502,10 +2546,10 @@ button.btn-more i {
     line-height: 32px;
 }
 .fraction p:last-child {
-    font-size: 12px;
+    font-size: 14px;
 }
 .fraction p:first-child span {
-    font-size: 12px;
+    font-size: 14px;
     color: #1E1E1E;
 }
 .score-star {
@@ -2543,7 +2587,7 @@ button.btn-more i {
     background-color: #35568D;
 }
 .score-star-item > span {
-	font-size: 12px;
+	font-size: 14px;
 	margin-left: 5px;
 }
 .fraction {
@@ -2554,7 +2598,7 @@ button.btn-more i {
     margin-bottom: 0;
 }
 .total-star .icon-star {
-    margin: 0 15px;
+    margin: 0 5px;
 }
 .total-star .icon-star i {
     font-size: 30px;
@@ -2603,7 +2647,7 @@ button.btn-more i {
 	margin-top: 5px;
 }
 .album-img .price p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #FFF;
 	margin-bottom: 0;
 }
@@ -2613,7 +2657,7 @@ button.btn-more i {
 	font-weight: 700;
 }
 .album-img .price p:last-child span {
-	font-size: 12px;
+	font-size: 14px;
 }
 .album-audio .album-txt .name .tag,
 .album-audio .album-txt .icon-star i {
@@ -2634,9 +2678,9 @@ button.btn-more i {
 	width: 60px;
     border-radius: 50px;
     color: #FFF;
-    border-color: #B4B4B4;
-    background-color: #B4B4B4;
-    font-size: 12px;
+    border-color: #FF6D2D;
+    background-color: #FF6D2D;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .album-audio .total-star .icon-star i,
@@ -2722,7 +2766,7 @@ button.btn-more i {
 	padding: 0 20px;
 }
 .included-voice p.other {
-	font-size: 12px;
+	font-size: 14px;
 	color: #969696;
 	padding: 10px 0;
 	border-bottom: 1px solid #D8D8D8;
