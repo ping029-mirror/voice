@@ -1100,6 +1100,20 @@ a.btn-gray {
 .rank-price .price p span {
 	font-size: 14px;
 }
+.rank-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rank-program p {
+	font-size: 15px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.rank-program .host {
+    font-size: 14px;
+    color: #969696;
+}
 .ranking-item:last-child .category-title, .ranking-item:last-child .rank-title .tag span {
 	background-color: #798FA7;
 }
