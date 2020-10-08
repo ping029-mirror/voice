@@ -21,6 +21,7 @@ li {
 }
 a, a:hover, a:active, a:focus {
 	color: #1E1E1E;
+	text-decoration: none;
 }
 a, a:hover, a:active, a:focus,
 button, button:hover, button:active, button:focus {
@@ -37,7 +38,7 @@ button {
 button i {
 	font-size: 16px;
 }
-a.btn-more {
+.btn-more {
 	display: block;
 	width: 120px;
 	line-height: 40px;
@@ -50,7 +51,7 @@ a.btn-more {
 	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 	margin: auto;
 }
-a.btn-more i {
+.btn-more i {
 	font-size: 12px;
 	margin-left: 5px;
 }
@@ -869,6 +870,7 @@ a.btn-gray {
 .project-item {
 	width: 270px;
 	background-color: rgba(30, 30, 30, .8);
+	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 25px;
@@ -882,6 +884,8 @@ a.btn-gray {
 .project-img img {
 	height: 180px;
     object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .project-title {
 	position: absolute;
@@ -1100,18 +1104,21 @@ a.btn-gray {
 .rank-price .price p span {
 	font-size: 14px;
 }
+.rank-txt.rank-txt-program {
+	flex-basis: 100%;
+}
+.rank-txt-program .rank-title {
+	padding: 0 0 0 10px;
+}
 .rank-program {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 .rank-program p {
-	font-size: 15px;
-    text-align: right;
+	font-size: 14px;
     margin-bottom: 0;
 }
 .rank-program .host {
-    font-size: 14px;
     color: #969696;
 }
 .ranking-item:last-child .category-title, .ranking-item:last-child .rank-title .tag span {
@@ -2219,6 +2226,12 @@ button.btn-more {
 	font-size: 14px;
 	font-weight: 500;
 	color: #FF6D2D;
+	width: auto;
+	line-height: 20px;
+	background-color: unset;
+	box-shadow: none;
+	letter-spacing: 1px;
+	border-radius: 0;
 	margin: auto;
 	margin-bottom: 15px;
 }
