@@ -82,6 +82,7 @@ a.btn-more:hover, a.btn-more:active, a.btn-more:focus, a.btn-more-oblong:hover, 
 	font-size: 14px;
 	width: 100%;
 	border-radius: 0;
+	font-weight: bold;
 	box-shadow: none;
 }
 .btn-group-bottom a + a {
@@ -234,7 +235,7 @@ a.btn-gray {
 	color: #FFF;
 	font-size: 18px;
 	letter-spacing: 1px;
-	font-weight: 500;
+	font-weight: bold;
 	padding-left: 40px;
 }
 .main-nav .nav-icon {
@@ -287,7 +288,7 @@ a.btn-gray {
 }
 .main-icon .login {
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: 1px;
 }
 
@@ -756,7 +757,7 @@ a.btn-gray {
 }
 .kv-txt h3 {
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: bold;
 	margin: 0 0 10px;
 }
 .kv-txt p {
@@ -891,7 +892,7 @@ a.btn-gray {
 	font-size: 16px;
 	line-height: 24px;
 	color: #FFF;
-	font-weight: 600;
+	font-weight: bold;
 	margin: 0 0 5px 0;
 }
 .project-title p {
@@ -970,7 +971,7 @@ a.btn-gray {
 .category-title h2 {
 	font-size: 16px;
 	color: #FFF;
-	font-weight: 500;
+	font-weight: bold;
 	margin: 0;
 }
 .category-title h2::before {
@@ -1050,8 +1051,9 @@ a.btn-gray {
 	margin-right: 5px;
 }
 .rank-title h3 {
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 16px;
+	color: #1E1E1E;
     line-height: 24px;
 	margin: 6px 0;
 }
@@ -1076,7 +1078,7 @@ a.btn-gray {
 }
 .rank-price .star p {
     font-size: 12px;
-    color: #B4B4B4;
+    color: #969696;
     margin: 0;
 }
 .rank-price .price {
@@ -1166,7 +1168,7 @@ a.btn-gray {
 	font-size: 16px;
 	margin: 6px 0  8px;
 	line-height: 20px;
-	font-weight: 500;
+	font-weight: bold;
 }
 .book-title p {
 	font-size: 14px;
@@ -1177,10 +1179,11 @@ a.btn-gray {
 .book-price {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 .book-price .icon-star {
     line-height: 10px;
+    margin-bottom: 5px;
 }
 .book-price .icon-star i {
     font-size: 12px;
@@ -1188,8 +1191,9 @@ a.btn-gray {
 }
 .book-price .star p {
     font-size: 12px;
-    color: #B4B4B4;
+    color: #969696;
     margin: 0;
+    line-height: 1;
 }
 .book-price .price {
     margin-top: auto;
@@ -1198,6 +1202,7 @@ a.btn-gray {
     color: #FF6D2D;
     font-size: 18px;
     font-weight: bold;
+    line-height: 1;
     letter-spacing: 1px;
     margin: 0;
 }
@@ -1206,11 +1211,20 @@ a.btn-gray {
     line-height: 12px;
     font-weight: 400;
     color: #B4B4B4;
+    margin-bottom: 5px;
 }
 .book-price .price p span {
 	font-size: 12px;
 }
-
+.book-program p {
+	color: #1E1E1E;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.book-program .host {
+	color: #969696;
+	font-size: 14px;
+}
 
 
 
@@ -1346,6 +1360,7 @@ a.btn-gray {
 .pub-txt p {
 	font-size: 14px;
 	font-weight: 300;
+	letter-spacing: 1px;
 	line-height: 20px;
 	margin-bottom: 0;
 }
@@ -1439,6 +1454,7 @@ a.btn-gray {
 }
 .voice-txt h4 {
 	font-size: 16px;
+	font-weight: bold;
 	margin: 0 0 10px;
 }
 .voice-txt .star {
@@ -1456,7 +1472,7 @@ a.btn-gray {
 }
 .voice-txt .star p {
     font-size: 12px;
-    color: #B4B4B4;
+    color: #969696;
     margin: 0;
 }
 .btn-track {
@@ -1697,7 +1713,7 @@ a.btn-gray {
 }	
 .content-top h1 {
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: bold;
 	margin: 0 0 15px;
 }
 .content-top p {
@@ -1728,6 +1744,9 @@ a.btn-gray {
 	color: #9B9B9B;
 }
 .content-txt p {
+	font-size: 16px;
+    line-height: 26px;
+    color: #1E1E1E;
 	margin-bottom: 20px;
 }
 .content-txt .txt-img {
@@ -1913,7 +1932,7 @@ a.btn-gray {
 	margin: 0 5px;
 }
 .anchor-tag .tag-item {
-	margin: 3px 5px 5px 0;
+	margin: 0 5px 5px 0;
 }
 .anchor-btn {
 	display: flex;
@@ -2105,7 +2124,8 @@ a.btn-gray {
     margin-right: 10px;
 }
 .message-title h4 {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -2317,6 +2337,7 @@ button.btn-more i {
 .album-txt .name h3 {
     font-size: 22px;
     line-height: 28px;
+    font-weight: bold;
     margin: 10px 0;
 }
 .album-txt .icon-star {
@@ -2350,6 +2371,7 @@ button.btn-more i {
 	font-size: 14px;
 	color: #464646;
     font-weight: 300;
+    line-height: 24px;
     margin-bottom: 15px;
 }
 .album-tag {
@@ -2385,7 +2407,7 @@ button.btn-more i {
 .anchor-box .voice-txt .star {
 	display: flex;
 	align-items: center;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .anchor-box .voice-txt .star .icon-star {
 	margin-right: 8px;
@@ -2494,8 +2516,8 @@ button.btn-more i {
     margin: 0;
 }
 .list-box #intro p {
-	font-size: 14px;
-	line-height: 22px;
+	font-size: 16px;
+	line-height: 24px;
 	padding: 15px 0;
 }
 .list-box #intro p:first-child {
@@ -2751,8 +2773,8 @@ button.btn-more i {
     background-color: #FF6D2D;
 }
 .informa-txt p {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
     padding-bottom: 15px;
 }
 .informa-voice {
@@ -2766,7 +2788,7 @@ button.btn-more i {
 	padding: 0 20px;
 }
 .included-voice p.other {
-	font-size: 14px;
+	font-size: 15px;
 	color: #969696;
 	padding: 10px 0;
 	border-bottom: 1px solid #D8D8D8;
@@ -2783,6 +2805,7 @@ button.btn-more i {
 }
 .included-voice a.btn-more-oblong {
 	width: 120px;
+	font-size: 14px;
 	margin: auto;
 	margin-bottom: 25px;
 }
